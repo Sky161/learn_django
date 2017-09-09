@@ -1,0 +1,22 @@
+{
+  "name": "learn_django",
+  "version": "1.0.0",
+  "description": "",
+  "main": "manage.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sky161/learn_django.git"
+  },
+  "author": "Andrey Chechkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sky161/learn_django/issues"
+  },
+  "homepage": "https://github.com/Sky161/learn_django#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

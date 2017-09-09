@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn Django</title>
+</head>
+<body>
+    <div class="container">
+        {% for post in posts %}
+            <article>
+                <h2><a href="#test">{{ post.title }}</a></h2>
+                <time datetime={{ post.publish_date }}>{{ post.publish_date }}</time>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </article>
+        {% endfor %}
+    </div>
+</body>
+</html>
